@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		68E28F2D23EE76FB005CD699 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E28F2C23EE76FB005CD699 /* AppDelegate.swift */; };
-		68E28F2F23EE76FB005CD699 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E28F2E23EE76FB005CD699 /* SceneDelegate.swift */; };
 		68E28F3123EE76FB005CD699 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E28F3023EE76FB005CD699 /* ViewController.swift */; };
 		68E28F3423EE76FB005CD699 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68E28F3223EE76FB005CD699 /* Main.storyboard */; };
 		68E28F3723EE76FB005CD699 /* eko_github_test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68E28F3523EE76FB005CD699 /* eko_github_test.xcdatamodeld */; };
@@ -17,9 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		68E28F2923EE76FB005CD699 /* eko_github_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eko_github_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E28F2923EE76FB005CD699 /* GitHub Users.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHub Users.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68E28F2C23EE76FB005CD699 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		68E28F2E23EE76FB005CD699 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		68E28F3023EE76FB005CD699 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		68E28F3323EE76FB005CD699 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		68E28F3623EE76FB005CD699 /* eko_github_test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = eko_github_test.xcdatamodel; sourceTree = "<group>"; };
@@ -50,7 +48,7 @@
 		68E28F2A23EE76FB005CD699 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				68E28F2923EE76FB005CD699 /* eko_github_test.app */,
+				68E28F2923EE76FB005CD699 /* GitHub Users.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,16 +56,23 @@
 		68E28F2B23EE76FB005CD699 /* eko_github_test */ = {
 			isa = PBXGroup;
 			children = (
-				68E28F2C23EE76FB005CD699 /* AppDelegate.swift */,
-				68E28F2E23EE76FB005CD699 /* SceneDelegate.swift */,
+				68E28F3D23EE76FE005CD699 /* Info.plist */,
+				68E28F3523EE76FB005CD699 /* eko_github_test.xcdatamodeld */,
+				68E28F4323EE775F005CD699 /* Resources */,
 				68E28F3023EE76FB005CD699 /* ViewController.swift */,
+			);
+			path = eko_github_test;
+			sourceTree = "<group>";
+		};
+		68E28F4323EE775F005CD699 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				68E28F3223EE76FB005CD699 /* Main.storyboard */,
 				68E28F3823EE76FE005CD699 /* Assets.xcassets */,
 				68E28F3A23EE76FE005CD699 /* LaunchScreen.storyboard */,
-				68E28F3D23EE76FE005CD699 /* Info.plist */,
-				68E28F3523EE76FB005CD699 /* eko_github_test.xcdatamodeld */,
+				68E28F2C23EE76FB005CD699 /* AppDelegate.swift */,
 			);
-			path = eko_github_test;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,7 +92,7 @@
 			);
 			name = eko_github_test;
 			productName = eko_github_test;
-			productReference = 68E28F2923EE76FB005CD699 /* eko_github_test.app */;
+			productReference = 68E28F2923EE76FB005CD699 /* GitHub Users.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -144,7 +149,6 @@
 				68E28F3723EE76FB005CD699 /* eko_github_test.xcdatamodeld in Sources */,
 				68E28F3123EE76FB005CD699 /* ViewController.swift in Sources */,
 				68E28F2D23EE76FB005CD699 /* AppDelegate.swift in Sources */,
-				68E28F2F23EE76FB005CD699 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +299,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.eko-github-test";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "GitHub Users";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -312,7 +316,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.eko-github-test";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "GitHub Users";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
